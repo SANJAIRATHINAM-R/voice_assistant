@@ -1,0 +1,17 @@
+{
+    "open_chrome": "chrome",
+    "open_notepad": "notepad",
+    "open_calculator": "calc",
+    "wifi_on": "netsh interface set interface \"Wi-Fi\" enabled",
+    "wifi_off": "netsh interface set interface \"Wi-Fi\" disabled",
+    "bluetooth_on": "Start-Service bthserv",
+    "bluetooth_off": "Stop-Service bthserv",
+    "keyboard_light_on": "echo Keyboard light ON", 
+    "keyboard_light_off": "echo Keyboard light OFF",
+    "volume_up": "nircmd changesysvolume 5000",
+    "volume_down": "nircmd changesysvolume -5000",
+    "brightness_up": "powershell (Get-WmiObject -Namespace root/WMI -Class WmiMonitorBrightnessMethods).WmiSetBrightness(1,80)",
+    "brightness_down": "powershell (Get-WmiObject -Namespace root/WMI -Class WmiMonitorBrightnessMethods).WmiSetBrightness(1,20)",
+    "open_chatgpt": "start https://chat.openai.com",
+    "shutdown": "shutdown /s /t 5"
+}
