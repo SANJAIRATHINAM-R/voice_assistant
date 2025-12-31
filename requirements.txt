@@ -1,0 +1,9 @@
+vosk
+pyaudio
+pyttsx3
+pystray
+pillow
+pyautogui
+pycaw
+screen-brightness-control
+comtypes
